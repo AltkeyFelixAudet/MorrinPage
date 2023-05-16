@@ -10,6 +10,7 @@
     <type fullname="ca.altkey.POVCameraMovement" preserve="all" />
     <type fullname="ca.altkey.SceneController" preserve="all" />
     <type fullname="ca.altkey.Selectable360" preserve="all" />
+    <type fullname="ca.altkey.WebGLInputHelper" preserve="all" />
   </assembly>
   <assembly fullname="ca.altkey, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="ca.altkey.ui.CanvasGroupAnimations" preserve="all" />
