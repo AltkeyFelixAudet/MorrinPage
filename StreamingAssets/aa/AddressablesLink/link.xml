@@ -1,6 +1,5 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="ca.altkey.AudioReset" preserve="all" />
     <type fullname="ca.altkey.AudioSlider" preserve="all" />
     <type fullname="ca.altkey.AudioTime" preserve="all" />
     <type fullname="ca.altkey.CameraController" preserve="all" />
@@ -24,11 +23,6 @@
     <type fullname="DarkTonic.MasterAudio.DynamicGroupVariation" preserve="all" />
     <type fullname="DarkTonic.MasterAudio.DynamicSoundGroup" preserve="all" />
     <type fullname="DarkTonic.MasterAudio.DynamicSoundGroupCreator" preserve="all" />
-    <type fullname="DarkTonic.MasterAudio.MasterAudio" preserve="all" />
-    <type fullname="DarkTonic.MasterAudio.MasterAudioGroup" preserve="all" />
-    <type fullname="DarkTonic.MasterAudio.PlaylistController" preserve="all" />
-    <type fullname="DarkTonic.MasterAudio.SoundGroupVariation" preserve="all" />
-    <type fullname="DarkTonic.MasterAudio.SoundGroupVariationUpdater" preserve="all" />
     <type fullname="DarkTonic.MasterAudio.CustomEventCategory" preserve="nothing" serialized="true" />
     <type fullname="DarkTonic.MasterAudio.MasterAudio/Playlist" preserve="nothing" serialized="true" />
     <type fullname="DarkTonic.MasterAudio.MusicSetting" preserve="nothing" serialized="true" />
@@ -68,21 +62,10 @@
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceAtlasedSprite" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Rendering.Volume" preserve="all" />
-    <type fullname="UnityEngine.Rendering.VolumeProfile" preserve="all" />
-    <type fullname="UnityEngine.Rendering.BoolParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.ClampedFloatParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.ClampedIntParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.MinFloatParameter" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Rendering.Universal.DepthOfField" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.DepthOfFieldModeParameter" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
@@ -133,10 +116,10 @@
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
-    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
@@ -164,9 +147,9 @@
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
