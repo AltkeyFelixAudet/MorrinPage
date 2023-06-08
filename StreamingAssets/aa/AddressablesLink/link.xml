@@ -1,6 +1,5 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="ca.altkey.AudioReset" preserve="all" />
     <type fullname="ca.altkey.AudioSlider" preserve="all" />
     <type fullname="ca.altkey.AudioTime" preserve="all" />
     <type fullname="ca.altkey.CameraController" preserve="all" />
@@ -24,11 +23,6 @@
     <type fullname="DarkTonic.MasterAudio.DynamicGroupVariation" preserve="all" />
     <type fullname="DarkTonic.MasterAudio.DynamicSoundGroup" preserve="all" />
     <type fullname="DarkTonic.MasterAudio.DynamicSoundGroupCreator" preserve="all" />
-    <type fullname="DarkTonic.MasterAudio.MasterAudio" preserve="all" />
-    <type fullname="DarkTonic.MasterAudio.MasterAudioGroup" preserve="all" />
-    <type fullname="DarkTonic.MasterAudio.PlaylistController" preserve="all" />
-    <type fullname="DarkTonic.MasterAudio.SoundGroupVariation" preserve="all" />
-    <type fullname="DarkTonic.MasterAudio.SoundGroupVariationUpdater" preserve="all" />
     <type fullname="DarkTonic.MasterAudio.CustomEventCategory" preserve="nothing" serialized="true" />
     <type fullname="DarkTonic.MasterAudio.MasterAudio/Playlist" preserve="nothing" serialized="true" />
     <type fullname="DarkTonic.MasterAudio.MusicSetting" preserve="nothing" serialized="true" />
@@ -43,6 +37,7 @@
     <type fullname="ca.altkey.ui.WindowReference" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Cinemachine.CinemachineBlenderSettings" preserve="all" />
     <type fullname="Cinemachine.CinemachineBrain" preserve="all" />
     <type fullname="Cinemachine.CinemachineComposer" preserve="all" />
     <type fullname="Cinemachine.CinemachineFreeLook" preserve="all" />
@@ -67,21 +62,10 @@
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceAtlasedSprite" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Rendering.Volume" preserve="all" />
-    <type fullname="UnityEngine.Rendering.VolumeProfile" preserve="all" />
-    <type fullname="UnityEngine.Rendering.BoolParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.ClampedFloatParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.ClampedIntParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.MinFloatParameter" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Rendering.Universal.DepthOfField" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.DepthOfFieldModeParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
