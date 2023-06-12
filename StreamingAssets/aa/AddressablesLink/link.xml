@@ -9,6 +9,8 @@
     <type fullname="ca.altkey.HUDModel" preserve="all" />
     <type fullname="ca.altkey.MediaBar" preserve="all" />
     <type fullname="ca.altkey.MovementController" preserve="all" />
+    <type fullname="ca.altkey.ObjectViewer360" preserve="all" />
+    <type fullname="ca.altkey.ObjectViewerCollision" preserve="all" />
     <type fullname="ca.altkey.PlayBtn" preserve="all" />
     <type fullname="ca.altkey.Podcast360" preserve="all" />
     <type fullname="ca.altkey.POIBubble" preserve="all" />
@@ -19,6 +21,7 @@
     <type fullname="ca.altkey.SimpleHover3D" preserve="all" />
     <type fullname="ca.altkey.Slideshow360" preserve="all" />
     <type fullname="ca.altkey.Text360" preserve="all" />
+    <type fullname="ca.altkey.TextScroller" preserve="all" />
     <type fullname="ca.altkey.Video360" preserve="all" />
     <type fullname="DarkTonic.MasterAudio.DynamicGroupVariation" preserve="all" />
     <type fullname="DarkTonic.MasterAudio.DynamicSoundGroup" preserve="all" />
@@ -124,6 +127,7 @@
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
     <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -158,7 +162,6 @@
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Video.VideoClip" preserve="all" />
     <type fullname="UnityEngine.Video.VideoPlayer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
